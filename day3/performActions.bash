@@ -11,10 +11,8 @@ if [ $# -gt 8 ]; then
   exit 1
 fi
 
-# Initialize the result with the first argument
 result=$1
 
-# Iterate over the remaining arguments
 shift
 for b in "$@"; do
   if [ $((result % b)) -eq 0 ]; then

@@ -15,7 +15,7 @@ echo "${arr[*]:2}"
 
 #To print from a range
 echo "${arr[@]:1:3}"
-echo "${arr[@]:1:3}"
+echo "${arr[*]:1:3}"
 
 #To print length of array
 echo "${#arr[*]}"

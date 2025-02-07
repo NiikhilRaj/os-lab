@@ -10,5 +10,4 @@ list_rw_files() {
     done
 }
 
-# Call the function
 list_rw_files
